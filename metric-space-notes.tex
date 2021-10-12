@@ -1,0 +1,18 @@
+% !TEX TS-program = latexmk
+% !TEX encoding = UTF-8 Unicode
+
+% This is a book in LaTeX 2e. 
+% To compile the file, you need to use the following command line commands in Linux:
+%	pdflatex --shell-escape -synctex=1  -recorder metric-space-notes.tex
+%	bibtex metric-space-notes 
+%	makeindex -s notation.gst -o not.gls not.glo  
+%	makeindex metric-space-notes
+% and repeat each of these many times.
+\input{preamble}
+\vrefwarning
+\begin{document}%
+\afterpreface 
+% The chapters  
+\input{metric-spaces}
+\input{metric-space-maps}
+\end{document}

@@ -1,0 +1,26 @@
+\documentclass{standalone}
+\usepackage[inline]{asymptote}
+\begin{document}
+\begin{asy}
+import graph3;
+size(800,IgnoreAspect);
+size3(800,IgnoreAspect);
+real r=2, w=1;
+real x(real u, real v){return (r+v/2*cos(3pi*u))*cos(2pi*u);};
+real y(real u, real v){return (r+v/2*cos(3pi*u))*sin(2pi*u);};
+real z(real u, real v){return (v/2*sin(3pi*u));};
+triple f(pair p){return (x(p.x,p.y),y(p.x,p.y),z(p.x,p.y));};
+draw(surface(f,(0,-w),(1,w),nu=9,Spline),
+material(diffusepen=gray(0.5), emissivepen=gray(0.4), specularpen=black));
+//lightgray);
+path3 g=(r,0,0)..(0,r,0)..(-r,0,0)..(0,-r,0)..cycle;
+draw(g,white+linewidth(1mm));
+path3 h=(r,0,-1)..(0,r,-1)..(-r,0,-1)..(0,-r,-1)..cycle;
+draw(h,gray+linewidth(1mm));
+int N=15;
+real eps=.02;
+for(int i=0; i < N; ++i) {
+	draw((x(i/N,-w)+eps,y(i/N,-w)+eps,z(i/N,-w)+eps)--(x(i/N,w)+eps,y(i/N,w)+eps,z(i/N,w)+eps),white+linewidth(.5mm));
+}
+\end{asy}
+\end{document}

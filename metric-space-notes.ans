@@ -1,0 +1,137 @@
+\vspace \smallskipamount \newparagraph \noindent \textbf {\ref{problem:metric.spaces:not.in.Kansas}.}
+Take a set consisting of 4 points \(X=\set{a,b_0,b_1,c}\).
+Set \(d(a,c)=2)\), and all other distances between distinct points set to \(1\).
+Then \(d(a,b_i)+d(b_i,c)=d(a,c)\).
+So if \(X\) arises as a subspace of \(\R{n}\), then \(b_0\) and \(b_1\) both bisect the line segment \(ac\), so must be equal, so \(X\) has only three points, a contradiction.
+This same example applies in any Hilbert space instead of \(\R{n}\).
+\vspace \smallskipamount \newparagraph \noindent \textbf {\ref{problem:metric.spaces:discrete.not.sep}.}
+Let \(X\) be the set of points \(1/2, 1/3, \dots \in \R{}\) with induced metric.
+\vspace \smallskipamount \newparagraph \noindent \textbf {\ref{problem:metric.spaces:proper}.}
+Any infinite set with standard discrete metric: balls of radius 2 are not compact, because the open cover by balls of radius \(1/2\) has no finite subcover, so not all balls are compact.
+But the closed balls of radius \(1/2\) are compact, each being just a single point.
+\vspace \smallskipamount \newparagraph \noindent \textbf {\ref{problem:metric.spaces:radius.cpt}.}
+%\begin{center}
+\begin{tikzpicture}[scale=.4]
+\fill[gray!15] (0,0) circle (1cm);
+\fill[gray!25] ({.75*cos(30)},{.75*sin(30)}) circle (.25cm);
+\end{tikzpicture}
+%\end{center}
+\vspace \smallskipamount \newparagraph \noindent \textbf {\ref{problem:metric.spaces:radius.cpt.3}.}
+Immediate from \(r(y) + d(x,y) \ge r(x)\): if \(r(x)\) is infinite then so is \(r(y)\).
+\vspace \smallskipamount \newparagraph \noindent \textbf {\ref{problem:metric.spaces:radius.cpt.2}.}
+In problem~\vref{problem:metric.spaces:radius.cpt} we saw that \(r(y)+d(x,y) \ge r(x)\), and by symmetry \(r(x)+d(x,y) \ge r(y)\).
+Therefore \(d(x,y) \ge |r(x)-r(y)|\), so that if we make \(y \to x\), we find \(r(y) \to r(x)\).
+\vspace \smallskipamount \newparagraph \noindent \textbf {\ref{problem:metric.spaces:radius.cpt.4}.}
+If the compactness radius is somewhere infinite, the space is proper, so its balls of positive integer radius are compact, and it is the union of these.
+So assume that the compactness radius is everywhere finite.
+By local compactness, the compactness radius is everywhere positive and \(d(x,y)\ge|r(x)-r(y)|\), so the compactness radius is continuous.
+Taking any compact set \(K \subset X\), let \(K'\) be the union of all closed balls of radius \(r(x)/2\) about points \(x \in K\).
+Any infinite sequence \(x_1,x_2,\dots \in K'\) has each \(x_i\) at distance at most \(r(y_i)/2\) from some \(y_i \in K\).
+Take a convergent subsequence of \(y_1,y_2,\dots\), and replace the original sequence with the subsequence, so \(y_1,y_2,\dots \to y\) say.
+Then \(d(x_i,y_i)\le r(y_i)/2 \to r(y)/2\).
+Far enough down the sequence \(x_1,x_2,\dots\), every \(x_i\) lies in the compact ball of radius \(3r(y)/2\) about \(y\).
+Thus \(x_1,x_2,\dots\) has a convergent subsequence.
+\vspace \smallskipamount \newparagraph \noindent \textbf {\ref{problem:metric.space.maps:arctan}.}
+\begin{center}
+\includegraphics[width=5cm]{arctan-plots}
+\end{center}
+\vspace \smallskipamount \newparagraph \noindent \textbf {\ref{problem:metric.space.maps:circle.maps}.}
+Given two maps \(f, g \colon S^1 \to S^1\) of the circle, with equal degree, let \(f_t=F_t f\) and \(g_t=F_t g\).
+Then
+\[
+\hat{f}_t(\theta)-\hat{g}_t(\theta) = (1-t)\pr{\hat{f}(\theta)-\hat{g}(\theta)}
++\frac{t}{2\pi} \int_0^{2\pi} \hat{f}-\hat{g}.
+\]
+Therefore
+\[
+d\pr{f_t,g_t}
+\le
+(1-t)d\pr{f,g}.
+\]
+\vspace \smallskipamount \newparagraph \noindent \textbf {\ref{problem:metric.space.maps:flow.additive}.}
+Differentiate:
+\[
+\pd{}{t}f_t(x)=X(f_t(x)),
+\]
+and applied to \(t=t_1+t_2\),
+\[
+\pd{}{t_2}f_{t_1+t_2}(x)=X(f_{t_1+t_2}(x)),
+\]
+and replacing \(x\) by \(f_{t_1}(x)\),
+\[
+\pd{}{t_2}f_{t_2}(f_{t_1}(x))=X(f_{t_1}(f_{t_2}(x))).
+\]
+So for any fixed \(t_1\), \(f_{t_2}(f_{t_1}(x))\) is a flow line of \(X\) through \(f_{t_1}(x)\), but so is \(f_{t_1+t_2}(x)\), and both start, when \(t_2=0\), at the point \(f_{t_1}(x)\).
+By uniqueness of the flow (theorem~\vref{theorem:Picard.Lipschitz}), they are equal: \(f_{t_1+t_2}(x)=f_{t_1+t_2}(x)\).
+\vspace \smallskipamount \newparagraph \noindent \textbf {\ref{problem:metric.space.maps:cont.diff.vec.field}.}
+\[
+f_t(x+h)-f_t(x)-h
+-
+\left(
+\int_0^t X'(f_s(x))ds
+\right)
+h
+=
+\int_0^t(X(f_s(x+h))-X(f_s(x))-X'(f_s(x))h)ds,
+\]
+is uniformly bounded by some expression \(o(h)\).
+\vspace \smallskipamount \newparagraph \noindent \textbf {\ref{problem:metric.space.maps:other.flow.definition}.}
+A flow in our sense above, given by flow lines, is also a flow in the sense of Picard's theorem.
+But suppose that there are two flows in the sense of Picard's theorem, say \(F(t,x)\) and \(G(t,x)\).
+Note that \(G_0(x)=x\).
+Consider the map \(H(t,x)\defeq G(-t,F(t,x))\).
+We need to prove that \(H(t,x)=x\) for all \(t,x\).
+Differentiate:
+\[
+\pd{}{t}H(t,x)
+=-\pd{G}{t}(-t,F(t,x))+\pd{G}{x}(-t,F(t,x))\pd{F}{t}(t,x),
+\]
+and plug in \(t=0\) to get
+\[
+\left.\pd{}{t}\right|_{t=0}H(t,x)=-X(x)+X(x)=0.
+\]
+So \(H(t,x)=x+O(t)^2\).
+Let \(H_t(x)\defeq H(t,x)\).
+For any integer \(N\ge 1\):
+\[
+H_t(x)=H_{t/N}^{\circ N}(x)=x+O(t/N)^2+\dots+O(t/N)^2=x+\frac{O(t)^2}{N} \to x
+\]
+as \(N \to \infty\), but the left hand side is independent of \(N\).
+\vspace \smallskipamount \newparagraph \noindent \textbf {\ref{problem:metric.space.maps:rect.conn}.}
+Take the graph of a continuous function \(y=f(x)\) which is not rectifiable.
+\vspace \smallskipamount \newparagraph \noindent \textbf {\ref{problem:metric.space.maps:covering.completeness}.}
+Suppose that \(Y\) is complete.
+Take a Cauchy sequence \(x_1,x_2,\dots\) in \(X\).
+Let \(y_i\coloneqq f(x_i)\).
+Because \(f\) is a local isometry, applied to nearby points, \(f\) preserves lengths of paths, so preserves distances.
+So \(y_1, y_2, \dots\) is a Cauchy sequence, so converges, say to some \(y \in Y\).
+Pick an evenly covered open set \(U_y \subset Y\) around \(y\).
+Take the point \(x_a\) inside each open set \(U_a \subset X\) covering \(U\).
+The set \(U_y\) contains a ball, say of radius \(r\), around \(y\).
+The preimage of this ball inside each set \(U_a\) contains a ball \(B_a\) of radius \(r\) around \(x_a\).
+Let \(B'_a \subset B_a\) be the ball of half the radius.
+The points \(y_i=f(x_i)\) converge to \(y\), so the points \(x_i\) must get close to some choice of point \(x_a\) for large \(i\).
+If infinitely many of the points \(x_i\) lie inside different balls \(B'_a\), then those infinitely many points are all of distance at least \(r/2\) apart, not in a Cauchy sequence.
+So all but finitely many of the points \(x_i\) lie inside the same ball \(B'_a\).
+The map \(f\) restricts to that ball to identify it with a ball around \(y\), and \(y_i=f(x_i) \to y\) so \(x_i=f^{-1}_a(y_i) \to x=f^{-1}(y)\).
+
+Suppose that \(X\) is complete.
+Take a Cauchy sequence \(y_1, y_2, \dots\) on \(Y\).
+Pick some numbers \(\varepsilon_1, \varepsilon_2, \dots \ge 0\) with \(\varepsilon_1 + \varepsilon_2 + \dots\) finite.
+Pick some \(i_1\) so that, for any \(j,k > i_1\), \(d(y_j,y_k)<\varepsilon_1\), and similarly \(i_2\) and so on.
+Replace the sequence \(y_1, y_2, \dots\) with \(y_{i_1}, y_{i_2}, \dots\).
+We need only prove that this sequence converges.
+Take a sequence of paths from \(y_i\) to \(y_{i+1}\), of lengths shrinking to zero, so that the lengths have finite sum.
+Lift each of these paths up to paths in \(X\), starting from some point \(x_1\) that maps to \(y_1\), and successively lifting paths.
+Join these paths together into one path \(y(t)\), and lift it to \(M\), i.e. to a path \(x(t)\) so that \(f(x(t))=y(t)\).
+Then there are various times \(t_i\) at which \(y(t_i)=y_i\).
+Let \(x_i \coloneqq x(t_i)\).
+Since the length of \(x(t)\) between \(t_i\) and \(t_{i+1}\) is the same as the length of \(y(t)\) between those times, the points \(x_i\) and \(x_{j+1}\) are of distance at most \(\varepsilon_i+\dots+\varepsilon_j\) apart.
+So \(x_1, x_2, \dots\) is a Cauchy sequence, converging to some point \(x \in M\).
+Let \(y=f(x)\) and then \(y_i \to y\).
+\vspace \smallskipamount \newparagraph \noindent \textbf {\ref{problem:metric.spaces:locally.compact.image}.}
+Let \(Y\) be any connected metric space containing more than one point.
+Let \(X\) be \(Y\) as a set of points, but with the standard discrete metric.
+Let \(f \colon X \to Y\) be the obvious map \(f(x)=x\) for all \(x \in X=Y\).
+For each point \(x \in X\), no open set around \(x \in Y\) maps under \(f^{-1}\) into the open set \(\set{x}\) around \(x\).
+So \(f^{-1}\) is nowhere continuous.

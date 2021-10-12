@@ -1,0 +1,16 @@
+\documentclass[tikz]{standalone}
+\colorlet{exampleBackgroundColour}{white}
+\begin{document}
+\begin{tikzpicture}[scale=.75]
+\foreach \i in {1,...,5}
+{%
+	\node[gray!75] (vert \i) at ({cos(\i*72)},{sin(\i*72}) {};
+	\draw[gray!75] (vert \i) circle (2pt);
+}%
+\draw[draw=exampleBackgroundColour,very thick,double=gray!75] (vert 1) -- (vert 2) -- (vert 3) -- (vert 4) -- (vert 5) -- (vert 1);
+\draw[draw=exampleBackgroundColour,very thick,double=gray!75] (vert 1) -- (vert 4);
+\draw[draw=exampleBackgroundColour,very thick,double=gray!75] (vert 1) -- (vert 3);
+\draw[draw=exampleBackgroundColour,very thick,double=gray!75] (vert 5) -- (vert 2);
+\draw[draw=exampleBackgroundColour,very thick,double=gray!75] (vert 5) -- (vert 3);
+\end{tikzpicture}
+\end{document}

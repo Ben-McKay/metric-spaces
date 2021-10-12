@@ -1,0 +1,14 @@
+\documentclass{standalone}
+\usepackage{pgfplots}
+\begin{document}
+\begin{tikzpicture}
+\pgfplotsset{width=3cm}
+\begin{axis}[axis lines=none,scaled ticks=false,mark=none]
+\addplot[gray!100!white,domain=0:1,samples=201]{x^2};
+\addplot[gray!80!white,domain=0:1,samples=201]{x^4};
+\addplot[gray!60!white,domain=0:1,samples=201]{x^8};
+\addplot[gray!40!white,domain=0:1,samples=201]{x^(16)};
+\addplot[gray!20!white,domain=0:1,samples=201]{x^(32)};
+\end{axis}
+\end{tikzpicture}
+\end{document}

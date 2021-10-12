@@ -1,0 +1,249 @@
+\begin{theindex}
+
+  \item accumulation point, \FancyIndexEntry{5}
+  \item arc length
+    \subitem function, \FancyIndexEntry{26}
+    \subitem parameterisation, \FancyIndexEntry{27}
+    \subitem reparameterisation, \FancyIndexEntry{27}
+
+  \indexspace
+
+  \item Baire category theorem, \FancyIndexEntry{9}
+  \item ball, \FancyIndexEntry{4}
+  \item bounded
+    \subitem pointwise, \FancyIndexEntry{14}
+      \subsubitem totally, \FancyIndexEntry{14}
+
+  \indexspace
+
+  \item Cauchy
+    \subitem locally uniformly, \FancyIndexEntry{13}
+    \subitem uniformly, \FancyIndexEntry{12}
+  \item closed
+    \subitem set
+      \subsubitem in a metric space, \FancyIndexEntry{4}
+  \item closure
+    \subitem in a metric space, \FancyIndexEntry{5}
+  \item comeager, \FancyIndexEntry{9}
+  \item compact
+    \subitem metric space, \FancyIndexEntry{6}
+  \item compactness radius, \FancyIndexEntry{8}
+  \item complete
+    \subitem metric space, \FancyIndexEntry{5}
+  \item complex
+    \subitem projective space, \FancyIndexEntry{34}
+  \item continuous, \FancyIndexEntry{11}
+  \item contraction, \FancyIndexEntry{18}
+    \subitem mapping theorem, \FancyIndexEntry{18}
+  \item convergence
+    \subitem in a metric space, \FancyIndexEntry{3}
+    \subitem pointwise, \FancyIndexEntry{11}
+    \subitem uniform, \FancyIndexEntry{12}
+  \item covered
+    \subitem evenly, \FancyIndexEntry{30}
+  \item covering map
+    \subitem metric space, \FancyIndexEntry{30}
+
+  \indexspace
+
+  \item dense, \FancyIndexEntry{8}, \FancyIndexEntry{16}
+    \subitem everywhere, \FancyIndexEntry{8}
+    \subitem nowhere, \FancyIndexEntry{9}
+  \item diameter
+    \subitem metric space, \FancyIndexEntry{6}
+  \item dilation, \FancyIndexEntry{16}
+    \subitem locally bounded, \FancyIndexEntry{17}
+  \item discrete
+    \subitem metric, \FancyIndexEntry{4}
+      \subsubitem standard, \FancyIndexEntry{3}
+  \item disjoint union, \FancyIndexEntry{3}
+  \item distance
+    \subitem function, \FancyIndexEntry{1}
+    \subitem preserving map, \FancyIndexEntry{16}
+  \item dyadic numbers, \FancyIndexEntry{30}
+
+  \indexspace
+
+  \item equicontinuous, \FancyIndexEntry{14}
+  \item Euclidean metric, \FancyIndexEntry{1}
+  \item evenly covered, \FancyIndexEntry{30}
+  \item evenly split, \FancyIndexEntry{29}
+  \item everywhere dense, \FancyIndexEntry{8}
+
+  \indexspace
+
+  \item family
+    \subitem metric spaces, \FancyIndexEntry{20}
+  \item flow, \FancyIndexEntry{24}
+  \item Fubini--Study metric, \FancyIndexEntry{33, 34}
+
+  \indexspace
+
+  \item geodesic, \FancyIndexEntry{28}
+    \subitem minimal, \FancyIndexEntry{28}
+
+  \indexspace
+
+  \item Hamming metric, \FancyIndexEntry{3}
+  \item Heine--Borel theorem, \FancyIndexEntry{7}
+
+  \indexspace
+
+  \item induced
+    \subitem metric, \FancyIndexEntry{1}
+  \item interior, \FancyIndexEntry{5}
+  \item isometry, \FancyIndexEntry{16}
+
+  \indexspace
+
+  \item Klein bottle, \FancyIndexEntry{33}
+
+  \indexspace
+
+  \item length
+    \subitem of a path, \FancyIndexEntry{25}
+    \subitem space, \FancyIndexEntry{29}
+  \item Lipschitz, \FancyIndexEntry{16}
+    \subitem locally, \FancyIndexEntry{17}
+  \item local
+    \subitem section, \FancyIndexEntry{20}
+  \item locally
+    \subitem bounded
+      \subsubitem dilation, \FancyIndexEntry{17}
+    \subitem Lipschitz, \FancyIndexEntry{17}
+  \item locally compact
+    \subitem metric space, \FancyIndexEntry{8}
+  \item locally uniformly
+    \subitem Cauchy, \FancyIndexEntry{13}
+
+  \indexspace
+
+  \item map
+    \subitem covering, \FancyIndexEntry{30}
+    \subitem distance preserving, \FancyIndexEntry{16}
+    \subitem quotient, \FancyIndexEntry{32, 33}
+  \item metric, \FancyIndexEntry{1}
+    \subitem discrete, \FancyIndexEntry{4}
+      \subsubitem standard, \FancyIndexEntry{3}
+    \subitem Euclidean, \FancyIndexEntry{1}
+    \subitem Fubini--Study, \FancyIndexEntry{33}
+    \subitem induced, \FancyIndexEntry{1}
+    \subitem quotient, \FancyIndexEntry{32, 33}
+    \subitem space, \FancyIndexEntry{1}
+      \subsubitem compact, \FancyIndexEntry{6}
+      \subsubitem complete, \FancyIndexEntry{5}
+      \subsubitem locally compact, \FancyIndexEntry{8}
+      \subsubitem proper, \FancyIndexEntry{8}
+    \subitem space covering map, \FancyIndexEntry{30}
+    \subitem taxi-cab, \FancyIndexEntry{2}, \hyperpage{11}
+    \subitem uniform, \FancyIndexEntry{14}
+  \item metric space
+    \subitem family, \FancyIndexEntry{20}
+  \item midpoint, \FancyIndexEntry{29}
+  \item minimal geodesic, \FancyIndexEntry{28}
+
+  \indexspace
+
+  \item net, \FancyIndexEntry{7}, \hyperpage{15}
+  \item nowhere dense, \FancyIndexEntry{9}
+
+  \indexspace
+
+  \item open
+    \subitem cover
+      \subsubitem metric space, \FancyIndexEntry{6}
+    \subitem relatively, \FancyIndexEntry{5}
+    \subitem set
+      \subsubitem in a metric space, \FancyIndexEntry{4}
+
+  \indexspace
+
+  \item parameterisation
+    \subitem by arc length, \FancyIndexEntry{27}
+  \item path, \FancyIndexEntry{25}
+    \subitem shortest, \FancyIndexEntry{28}
+  \item path connected
+    \subitem metric space, \FancyIndexEntry{29}
+  \item piece of a path, \FancyIndexEntry{26}
+  \item pinch, \FancyIndexEntry{18}, \FancyIndexEntry{20}
+  \item pointwise
+    \subitem bounded, \FancyIndexEntry{14}
+      \subsubitem totally, \FancyIndexEntry{14}
+    \subitem convergence, \FancyIndexEntry{11}
+    \subitem relatively compact, \FancyIndexEntry{14}
+  \item projective space
+    \subitem complex, \FancyIndexEntry{34}
+    \subitem quaternionic, \FancyIndexEntry{34}
+    \subitem real, \FancyIndexEntry{33}
+  \item proper
+    \subitem metric space, \FancyIndexEntry{8}
+
+  \indexspace
+
+  \item quaternionic projective space, \FancyIndexEntry{34}
+  \item quotient
+    \subitem map, \FancyIndexEntry{32, 33}
+    \subitem metric, \FancyIndexEntry{32, 33}
+    \subitem space, \FancyIndexEntry{32, 33}
+
+  \indexspace
+
+  \item radius
+    \subitem compactness, \FancyIndexEntry{8}
+  \item real
+    \subitem projective space, \FancyIndexEntry{33}
+  \item rectifiable, \FancyIndexEntry{25}
+  \item rectifiably path connected
+    \subitem metric space, \FancyIndexEntry{29}
+  \item relatively
+    \subitem compact
+      \subsubitem pointwise, \FancyIndexEntry{14}
+  \item relatively open, \FancyIndexEntry{5}
+  \item reparameterisation, \FancyIndexEntry{27}
+    \subitem arc length, \FancyIndexEntry{27}
+
+  \indexspace
+
+  \item section, \FancyIndexEntry{20}
+    \subitem local, \FancyIndexEntry{20}
+  \item set
+    \subitem closed
+      \subsubitem in a metric space, \FancyIndexEntry{4}
+    \subitem open
+      \subsubitem in a metric space, \FancyIndexEntry{4}
+  \item sheet, \FancyIndexEntry{30}
+  \item shortest path, \FancyIndexEntry{28}
+  \item space
+    \subitem quotient, \FancyIndexEntry{32, 33}
+  \item split
+    \subitem evenly, \FancyIndexEntry{29}
+  \item stalk, \FancyIndexEntry{20}, \FancyIndexEntry{32}
+  \item subcover
+    \subitem metric space, \FancyIndexEntry{6}
+
+  \indexspace
+
+  \item taxi-cab metric, \FancyIndexEntry{2}, \hyperpage{11}
+  \item theorem
+    \subitem Arzel\'a--Ascoli, \FancyIndexEntry{14}, 
+		\FancyIndexEntry{16}
+    \subitem Baire category, \FancyIndexEntry{9}
+    \subitem contraction mapping, \FancyIndexEntry{18}
+    \subitem Heine--Borel, \FancyIndexEntry{7}
+    \subitem wedding blanket, \FancyIndexEntry{16}
+  \item triangle inequality, \FancyIndexEntry{1}
+
+  \indexspace
+
+  \item uniform
+    \subitem convergence, \FancyIndexEntry{12}
+    \subitem distance, \FancyIndexEntry{12}
+    \subitem metric, \FancyIndexEntry{14}
+  \item uniformly
+    \subitem Cauchy, \FancyIndexEntry{12}
+
+  \indexspace
+
+  \item wedding blanket theorem, \FancyIndexEntry{16}
+
+\end{theindex}

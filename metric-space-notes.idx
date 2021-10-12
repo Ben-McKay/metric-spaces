@@ -1,0 +1,150 @@
+\indexentry{metric!space|FancyIndexEntry}{1}
+\indexentry{metric|FancyIndexEntry}{1}
+\indexentry{distance!function|FancyIndexEntry}{1}
+\indexentry{triangle inequality|FancyIndexEntry}{1}
+\indexentry{Euclidean metric|FancyIndexEntry}{1}
+\indexentry{metric!Euclidean|FancyIndexEntry}{1}
+\indexentry{induced!metric|FancyIndexEntry}{1}
+\indexentry{metric!induced|FancyIndexEntry}{1}
+\indexentry{taxi-cab metric|FancyIndexEntry}{2}
+\indexentry{metric!taxi-cab|FancyIndexEntry}{2}
+\indexentry{discrete!metric!standard|FancyIndexEntry}{3}
+\indexentry{metric!discrete!standard|FancyIndexEntry}{3}
+\indexentry{disjoint union|FancyIndexEntry}{3}
+\indexentry{Hamming metric|FancyIndexEntry}{3}
+\indexentry{convergence!in a metric space|FancyIndexEntry}{3}
+\indexentry{metric!discrete|FancyIndexEntry}{4}
+\indexentry{discrete!metric|FancyIndexEntry}{4}
+\indexentry{ball|FancyIndexEntry}{4}
+\indexentry{open!set!in a metric space|FancyIndexEntry}{4}
+\indexentry{set!open!in a metric space|FancyIndexEntry}{4}
+\indexentry{closed!set!in a metric space|FancyIndexEntry}{4}
+\indexentry{set!closed!in a metric space|FancyIndexEntry}{4}
+\indexentry{interior|FancyIndexEntry}{5}
+\indexentry{closure!in a metric space|FancyIndexEntry}{5}
+\indexentry{accumulation point|FancyIndexEntry}{5}
+\indexentry{relatively open|FancyIndexEntry}{5}
+\indexentry{open!relatively|FancyIndexEntry}{5}
+\indexentry{complete!metric space|FancyIndexEntry}{5}
+\indexentry{metric!space!complete|FancyIndexEntry}{5}
+\indexentry{compact!metric space|FancyIndexEntry}{6}
+\indexentry{metric!space!compact|FancyIndexEntry}{6}
+\indexentry{diameter!metric space|FancyIndexEntry}{6}
+\indexentry{open!cover!metric space|FancyIndexEntry}{6}
+\indexentry{subcover!metric space|FancyIndexEntry}{6}
+\indexentry{net|FancyIndexEntry}{7}
+\indexentry{Heine--Borel theorem|FancyIndexEntry}{7}
+\indexentry{theorem!Heine--Borel|FancyIndexEntry}{7}
+\indexentry{locally compact!metric space|FancyIndexEntry}{8}
+\indexentry{metric!space!locally compact|FancyIndexEntry}{8}
+\indexentry{proper!metric space|FancyIndexEntry}{8}
+\indexentry{metric!space!proper|FancyIndexEntry}{8}
+\indexentry{compactness radius|FancyIndexEntry}{8}
+\indexentry{radius!compactness|FancyIndexEntry}{8}
+\indexentry{dense|FancyIndexEntry}{9}
+\indexentry{everywhere dense|FancyIndexEntry}{9}
+\indexentry{dense!everywhere|FancyIndexEntry}{9}
+\indexentry{dense!nowhere|FancyIndexEntry}{9}
+\indexentry{nowhere dense|FancyIndexEntry}{9}
+\indexentry{comeager|FancyIndexEntry}{9}
+\indexentry{Baire category theorem|FancyIndexEntry}{10}
+\indexentry{theorem!Baire category|FancyIndexEntry}{10}
+\indexentry{continuous|FancyIndexEntry}{11}
+\indexentry{taxi-cab metric|hyperpage}{11}
+\indexentry{metric!taxi-cab|hyperpage}{11}
+\indexentry{convergence!pointwise|FancyIndexEntry}{11}
+\indexentry{pointwise!convergence|FancyIndexEntry}{11}
+\indexentry{uniform!distance|FancyIndexEntry}{12}
+\indexentry{convergence!uniform|FancyIndexEntry}{12}
+\indexentry{uniform!convergence|FancyIndexEntry}{12}
+\indexentry{uniformly!Cauchy|FancyIndexEntry}{12}
+\indexentry{Cauchy!uniformly|FancyIndexEntry}{12}
+\indexentry{locally uniformly!Cauchy|FancyIndexEntry}{13}
+\indexentry{Cauchy!locally uniformly|FancyIndexEntry}{13}
+\indexentry{uniform!metric|FancyIndexEntry}{14}
+\indexentry{metric!uniform|FancyIndexEntry}{14}
+\indexentry{equicontinuous|FancyIndexEntry}{14}
+\indexentry{pointwise!bounded|FancyIndexEntry}{14}
+\indexentry{bounded!pointwise|FancyIndexEntry}{14}
+\indexentry{bounded!pointwise!totally|FancyIndexEntry}{14}
+\indexentry{pointwise!bounded!totally|FancyIndexEntry}{14}
+\indexentry{pointwise!relatively compact|FancyIndexEntry}{14}
+\indexentry{relatively!compact!pointwise|FancyIndexEntry}{14}
+\indexentry{theorem!Arzela--Ascoli@Arzel\'a--Ascoli|FancyIndexEntry}{14}
+\indexentry{net|hyperpage}{15}
+\indexentry{theorem!Arzela--Ascoli@Arzel\'a--Ascoli|FancyIndexEntry}{16}
+\indexentry{distance!preserving map|FancyIndexEntry}{16}
+\indexentry{map!distance preserving|FancyIndexEntry}{16}
+\indexentry{isometry|FancyIndexEntry}{16}
+\indexentry{dense|FancyIndexEntry}{16}
+\indexentry{dilation|FancyIndexEntry}{16}
+\indexentry{Lipschitz|FancyIndexEntry}{16}
+\indexentry{wedding blanket theorem|FancyIndexEntry}{16}
+\indexentry{theorem!wedding blanket|FancyIndexEntry}{16}
+\indexentry{locally!bounded!dilation|FancyIndexEntry}{17}
+\indexentry{dilation!locally bounded|FancyIndexEntry}{17}
+\indexentry{Lipschitz!locally|FancyIndexEntry}{17}
+\indexentry{locally!Lipschitz|FancyIndexEntry}{17}
+\indexentry{contraction|FancyIndexEntry}{18}
+\indexentry{pinch|FancyIndexEntry}{18}
+\indexentry{theorem!contraction mapping|FancyIndexEntry}{18}
+\indexentry{contraction!mapping theorem|FancyIndexEntry}{18}
+\indexentry{metric space!family|FancyIndexEntry}{20}
+\indexentry{family!metric spaces|FancyIndexEntry}{20}
+\indexentry{stalk|FancyIndexEntry}{20}
+\indexentry{section|FancyIndexEntry}{20}
+\indexentry{section!local|FancyIndexEntry}{20}
+\indexentry{local!section|FancyIndexEntry}{20}
+\indexentry{pinch|FancyIndexEntry}{20}
+\indexentry{flow|FancyIndexEntry}{24}
+\indexentry{path|FancyIndexEntry}{25}
+\indexentry{length!of a path|FancyIndexEntry}{25}
+\indexentry{rectifiable|FancyIndexEntry}{25}
+\indexentry{piece of a path|FancyIndexEntry}{26}
+\indexentry{arc length!function|FancyIndexEntry}{26}
+\indexentry{parameterisation!by arc length|FancyIndexEntry}{27}
+\indexentry{arc length!parameterisation|FancyIndexEntry}{27}
+\indexentry{reparameterisation|FancyIndexEntry}{27}
+\indexentry{arc length!reparameterisation|FancyIndexEntry}{27}
+\indexentry{reparameterisation!arc length|FancyIndexEntry}{27}
+\indexentry{path!shortest|FancyIndexEntry}{28}
+\indexentry{shortest path|FancyIndexEntry}{28}
+\indexentry{geodesic|FancyIndexEntry}{28}
+\indexentry{minimal geodesic|FancyIndexEntry}{28}
+\indexentry{geodesic!minimal|FancyIndexEntry}{28}
+\indexentry{path connected!metric space|FancyIndexEntry}{29}
+\indexentry{rectifiably path connected!metric space|FancyIndexEntry}{29}
+\indexentry{length!space|FancyIndexEntry}{29}
+\indexentry{midpoint|FancyIndexEntry}{29}
+\indexentry{evenly split|FancyIndexEntry}{29}
+\indexentry{split!evenly|FancyIndexEntry}{29}
+\indexentry{dyadic numbers|FancyIndexEntry}{30}
+\indexentry{evenly covered|FancyIndexEntry}{30}
+\indexentry{covered!evenly|FancyIndexEntry}{30}
+\indexentry{sheet|FancyIndexEntry}{30}
+\indexentry{metric!space covering map|FancyIndexEntry}{30}
+\indexentry{covering map!metric space|FancyIndexEntry}{30}
+\indexentry{map!covering|FancyIndexEntry}{30}
+\indexentry{quotient!space|FancyIndexEntry}{32}
+\indexentry{space!quotient|FancyIndexEntry}{32}
+\indexentry{quotient!map|FancyIndexEntry}{32}
+\indexentry{map!quotient|FancyIndexEntry}{32}
+\indexentry{stalk|FancyIndexEntry}{32}
+\indexentry{quotient!metric|FancyIndexEntry}{32}
+\indexentry{metric!quotient|FancyIndexEntry}{32}
+\indexentry{quotient!space|FancyIndexEntry}{33}
+\indexentry{space!quotient|FancyIndexEntry}{33}
+\indexentry{quotient!map|FancyIndexEntry}{33}
+\indexentry{map!quotient|FancyIndexEntry}{33}
+\indexentry{quotient!metric|FancyIndexEntry}{33}
+\indexentry{metric!quotient|FancyIndexEntry}{33}
+\indexentry{Klein bottle|FancyIndexEntry}{33}
+\indexentry{real!projective space|FancyIndexEntry}{33}
+\indexentry{projective space!real|FancyIndexEntry}{33}
+\indexentry{Fubini--Study metric|FancyIndexEntry}{33}
+\indexentry{metric!Fubini--Study|FancyIndexEntry}{33}
+\indexentry{complex!projective space|FancyIndexEntry}{34}
+\indexentry{projective space!complex|FancyIndexEntry}{34}
+\indexentry{Fubini--Study metric|FancyIndexEntry}{34}
+\indexentry{quaternionic projective space|FancyIndexEntry}{34}
+\indexentry{projective space!quaternionic|FancyIndexEntry}{34}

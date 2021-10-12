@@ -1,0 +1,13 @@
+\documentclass{standalone}
+\usepackage{pgfplots}
+\begin{document}
+\begin{tikzpicture}
+\pgfplotsset{width=4cm}
+\begin{axis}[axis lines=none,scaled ticks=false]
+\addplot[gray,domain=0:10,samples=201]
+{sin(deg(x))};
+\addplot[gray!50!white,domain=0:10,samples=201]
+{x};
+\end{axis}
+\end{tikzpicture}
+\end{document}
